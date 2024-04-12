@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79200691774",
+    "project_id": "rasoi-3c2cc",
+    "storage_bucket": "rasoi-3c2cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79200691774:android:a40de408d6fa82eb8d536f",
+        "android_client_info": {
+          "package_name": "com.example.rasoiriders"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOZoDQ0ocLfML84jWNJOFVe_yZOsIYulw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
