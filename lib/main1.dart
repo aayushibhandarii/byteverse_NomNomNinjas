@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
         '/vegan': (context) => VeganPage(),
         '/diet': (context) => DietPage(),
         '/drinks': (context) => DrinksPage(),
-        '/location': (context) => LocationPage(),
+        '/location': (context) => LocationSelectionPage(),
         '/mealplan': (context) => MealPlan(),
         '/payment': (context) => paymentGateway(),
         '/track': (context) => TrackYourOrderScreen(),
