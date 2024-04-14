@@ -109,7 +109,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Second Image with Text
                     GestureDetector(
                       onTap: () {
@@ -122,7 +122,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Third Image with Text
                     GestureDetector(
                       onTap: () {
@@ -135,7 +135,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Fourth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -148,7 +148,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Fifth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -161,7 +161,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Sixth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -174,7 +174,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     //seventh image text
                     GestureDetector(
                       onTap: () {
@@ -187,7 +187,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // eighth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -200,7 +200,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // ninth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -213,7 +213,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // tenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -227,7 +227,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // eleventh Image with Text
                     GestureDetector(
                       onTap: () {
@@ -240,7 +240,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // twelfth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -253,7 +253,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // thirteenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -266,7 +266,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // fourteenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -279,7 +279,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // fifteenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -292,7 +292,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // sixteenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -305,7 +305,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // seventeenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -318,7 +318,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // eighteenth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -332,7 +332,7 @@ class _DietPageState extends State<DietPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                   ],
                 ),
               ),
@@ -402,7 +402,7 @@ class _DietPageState extends State<DietPage> {
             },
             child: const Icon(Icons.keyboard_arrow_up),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 30),
           FloatingActionButton(
             onPressed: () {
               _scrollController.animateTo(
