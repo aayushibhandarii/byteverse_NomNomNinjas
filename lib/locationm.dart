@@ -56,7 +56,7 @@ class _LocationFormState extends State<LocationForm> {
               },
             ),
             TextFormField(
-              controller: _pinCodeController,
+              controller: _localityController,
               decoration: const InputDecoration(labelText: 'Locality'),
               validator: (value) {
                 if (value?.isEmpty ?? true) {
@@ -66,7 +66,7 @@ class _LocationFormState extends State<LocationForm> {
               },
             ),
             TextFormField(
-              controller: _pinCodeController,
+              controller: _landmarkController,
               decoration: const InputDecoration(labelText: 'Landmark'),
               validator: (value) {
                 if (value?.isEmpty ?? true) {
