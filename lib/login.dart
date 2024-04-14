@@ -4,6 +4,7 @@ import 'package:rasoiriders/main.dart';
 import 'package:rasoiriders/signup.dart';
 import 'package:rasoiriders/uiHelper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:rasoiriders/location.dart';
 
 import 'homepg.dart';
 
