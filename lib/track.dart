@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class TrackYourOrderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,15 +11,14 @@ class TrackYourOrderScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Your order is on the way!',
+              'Your Order is on the Way!',
               style: TextStyle(fontSize: 24.0),
             ),
             const SizedBox(height: 20.0),
             ElevatedButton(
               onPressed: () {
-                // Navigate back to the previous screen
-                Navigator.pop(context);
-              },
+                //navigate back to the previous screen
+                Navigator.pop(context);},
               child: const Text('Go Back'),
             ),
           ],
