@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
         '/location': (context) => LocationPage(),
         '/mealplan': (context) => MealPlan(),
         '/payment': (context) => paymentGateway(),
+        '/track': (context) => TrackYourOrderScreen(),
 
 
 
