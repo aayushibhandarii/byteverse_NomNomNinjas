@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 1'),
+                          const Text('Good Food Always Wins'),
                           Image.asset('assets/images/food6.jpeg'),
                         ],
                       ),
@@ -117,7 +117,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 2'),
+                          const Text('Fried shrimp Salad with wheat bread and tomato salsa'),
                           Image.asset('assets/images/veg1.jpg'),
                         ],
                       ),
@@ -130,7 +130,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 3'),
+                          const Text('Burgers'),
                           Image.asset('assets/images/veg2.jpg'),
                         ],
                       ),
@@ -143,7 +143,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 4'),
+                          const Text('Sphagetti'),
                           Image.asset('assets/images/veg3.jpg'),
                         ],
                       ),
@@ -156,7 +156,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 5'),
+                          const Text('Porridge with fried raw Banana'),
                           Image.asset('assets/images/veg4.jpg'),
                         ],
                       ),
@@ -169,7 +169,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 6'),
+                          const Text('Waffle pancakes with strawberries and drizzle of chocolate syrup'),
                           Image.asset('assets/images/veg5.jpg'),
                         ],
                       ),
@@ -182,7 +182,7 @@ class _HomePageState extends State<HomePage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 7'),
+                          const Text('Air-fried seasoned lobster'),
                           Image.asset('assets/images/veg6.jpg'),
                         ],
                       ),
