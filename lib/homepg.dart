@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     // Second Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for second image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for second image in section two here
                       },
                       child: Column(
                         children: [
@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
                     // Third Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for third image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for third image in section two here
                       },
                       child: Column(
                         children: [
@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                     // Fourth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fourth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fourth image in section two here
                       },
                       child: Column(
                         children: [
@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                     // Fifth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fifth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fifth image in section two here
                       },
                       child: Column(
                         children: [
@@ -165,7 +165,7 @@ class _HomePageState extends State<HomePage> {
                     // Sixth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for sixth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for sixth image in section two here
                       },
                       child: Column(
                         children: [
@@ -178,7 +178,7 @@ class _HomePageState extends State<HomePage> {
                     // Seventh Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for seventh image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for seventh image in section two here
                       },
                       child: Column(
                         children: [
