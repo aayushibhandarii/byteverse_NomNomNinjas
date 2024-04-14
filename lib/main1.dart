@@ -11,6 +11,8 @@ import 'package:rasoiriders/paymentgateway.dart';
 import 'package:rasoiriders/signup.dart';
 import 'package:rasoiriders/vegan.dart';
 import 'package:rasoiriders/track.dart';
+import 'package:rasoiriders/makecall.dart';
+import 'makecall.dart';
 import 'diet.dart';
 import 'drinks.dart';
 import 'firebase_options.dart';
@@ -54,6 +56,7 @@ class MyApp extends StatelessWidget {
         '/mealplan': (context) => MealPlan(),
         '/payment': (context) => paymentGateway(),
         '/track': (context) => TrackYourOrderScreen(),
+        '/calling': (context) => makeCall(),
 
 
 
