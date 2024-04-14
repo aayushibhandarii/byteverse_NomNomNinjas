@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Home Page'),
         leading: GestureDetector(
           onTap: () {
-            // Add action for menu icon here
+             Navigator.pushNamed(context, '/location');// Add action for menu icon here
           },
           child: Image.asset('assets/images/icon1.png'), // Replace with your menu icon
         ),
