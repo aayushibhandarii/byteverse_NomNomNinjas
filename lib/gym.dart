@@ -12,7 +12,7 @@ class _GymPageState extends State<GymPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Gym Page'),
+        title: const Text('Diet Page'),
         leading: GestureDetector(
           onTap: () {
             // Add action for menu icon here
@@ -100,12 +100,12 @@ class _GymPageState extends State<GymPage> {
                     // First Image with Text
                     GestureDetector(
                       onTap: () {
-                        Navigator.pushNamed(context, '/mealplan');// Add action for first image in section two here
+                           _showChatOrCallDialog(context);// Add action for first image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 1'),
-                          Image.asset('assets/images/food6.jpeg'),
+                          const Text('GYM FOOD'),
+                          Image.asset('assets/images/gy3.png'),
                         ],
                       ),
                     ),
@@ -113,12 +113,12 @@ class _GymPageState extends State<GymPage> {
                     // Second Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for second image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for second image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 2'),
-                          Image.asset('assets/images/veg1.jpg'),
+                          const Text('Apple slices with Almond Butter'),
+                          Image.asset('assets/images/apple slices with almond butter.jpg'),
                         ],
                       ),
                     ),
@@ -126,12 +126,12 @@ class _GymPageState extends State<GymPage> {
                     // Third Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for third image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for third image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 3'),
-                          Image.asset('assets/images/veg2.jpg'),
+                          const Text('Baked Chicken Breast with Green beans'),
+                          Image.asset('assets/images/baked chicken breat with green beans.jpg'),
                         ],
                       ),
                     ),
@@ -139,12 +139,12 @@ class _GymPageState extends State<GymPage> {
                     // Fourth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fourth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fourth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 4'),
-                          Image.asset('assets/images/veg3.jpg'),
+                          const Text('Cottage Cheese and Fruit Bowl'),
+                          Image.asset('assets/images/Cottage Cheese and Fruit Bowl.jpg'),
                         ],
                       ),
                     ),
@@ -152,12 +152,12 @@ class _GymPageState extends State<GymPage> {
                     // Fifth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fifth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fifth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 5'),
-                          Image.asset('assets/images/veg4.jpg'),
+                          const Text('Dried Fruit and Nut Mix'),
+                          Image.asset('assets/images/Dried Fruit and Nut Mix.jpg'),
                         ],
                       ),
                     ),
@@ -165,25 +165,169 @@ class _GymPageState extends State<GymPage> {
                     // Sixth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for sixth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for sixth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 6'),
-                          Image.asset('assets/images/veg5.jpg'),
+                          const Text('Greek Yogurt Parfait'),
+                          Image.asset('assets/images/greek yogurt parfait.jpg'),
                         ],
                       ),
                     ),
                     const SizedBox(height: 10),
-                    // Seventh Image with Text
+                    //seventh image text
                     GestureDetector(
                       onTap: () {
-                        // Add action for seventh image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for seventh image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 7'),
-                          Image.asset('assets/images/veg6.jpg'),
+                          const Text('Grilled Chicken fillet with vegetable salad'),
+                          Image.asset('assets/images/Grilled chicken fillet with vegetable salad.jpg')
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for eighth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Grilled Salmon with steamed broccoli and quinoa'),
+                          Image.asset('assets/images/grilled salmon with steamed broccoli and quinoa.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // ninth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for ninth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Oatmeal with banana and almonds'),
+                          Image.asset('assets/images/oatmeal with banana and almonds.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // tenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for tenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Protein Bar(choco chip, peanut butter'),
+                          Image.asset('assets/images/protein bar(choco chip,  peanut butter).jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eleventh Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for eleventh image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Protein pancakes with berry'),
+                          Image.asset('assets/images/protein pancakes with berry.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // twelfth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for twelfth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Protein Smoothie(banana, spinach, protein powder'),
+                          Image.asset('assets/images/protein smoothie(banana, spinach, protein powder).jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // thirteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for thirteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Quinoa bowl with roasted vegetables and avocados'),
+                          Image.asset('assets/images/quinoa bowl wit roasted vegetables and avacados.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fourteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fourteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('scrambled eggs with spinach toast '),
+                          Image.asset('assets/images/scrambled eggs with spinach toast.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fifteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fifteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('stir-fried tofu with mixed mixed vegetables and brown rice'),
+                          Image.asset('assets/images/stir-fried tofu with mixed vegetables ad brown rice.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // sixteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for sixteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('tuna salad sandwich with whole wheat bread  '),
+                          Image.asset('assets/images/tuna salad sandwhich with whole wheat bread.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // seventeenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for seventeenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('turkey wrap with lettuce, tomato and whole wheat tortilla'),
+                          Image.asset('assets/images/turkey wrap with lettuce, tomato and whole wheat tortilla.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for eighteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('veggie stir fry with tofu'),
+                          Image.asset('assets/images/veggie str fry with tofu.jpg'),
+
                         ],
                       ),
                     ),
@@ -200,7 +344,7 @@ class _GymPageState extends State<GymPage> {
           BottomNavigationBarItem(
             icon: GestureDetector(
               onTap: () {
-                // No action needed for the first icon
+                Navigator.pushNamed(context, '/homepg');// No action needed for the first icon
               },
               child: Image.asset('assets/images/icon3.png'), // Replace with your home icon
             ),
@@ -309,4 +453,31 @@ class _GymPageState extends State<GymPage> {
     );
   }
 }
-
+void _showChatOrCallDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Text("Do you really want to make a call"),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children:[
+            ElevatedButton(
+              onPressed: ()
+              {
+                //function for chat
+              },
+              child: const Text("YES, I CONFIRM"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/gym');//function for call
+              },
+              child: const Text("NO"),
+            ),
+          ],
+        ),
+      );
+    },
+  );
+}
