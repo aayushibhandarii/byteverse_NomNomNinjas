@@ -467,13 +467,13 @@ void _showChatOrCallDialog(BuildContext context) {
             ElevatedButton(
               onPressed: ()
               {
-                //function for chat
+                Navigator.pushNamed(context, '/calling');//function for call
               },
               child: const Text("YES, I CONFIRM"),
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/diet');//function for call
+                Navigator.pushNamed(context, '/diet');
               },
               child: const Text("NO"),
             ),
