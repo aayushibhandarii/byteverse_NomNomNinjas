@@ -25,7 +25,7 @@ class _loginPageState extends State<loginPage> {
       UserCredential? usercredential;         //  ? means it can be null
       try{
         usercredential = await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email, password: password);// as we are handling with future values hence we use async and await     // if here values are putted by the user then create a new user
-        return HomePage();}
+        return LocationSelectionPage();}
       on FirebaseAuthException catch(e){        // to handle the exception in try   //ex: if user created another account with same email and password or network issue while entering email or password
         return uiHelper.CustomAlertBox(context, e.code.toString());  // as exception is generated through code and to string() convert it to string so that user can understand
       }
