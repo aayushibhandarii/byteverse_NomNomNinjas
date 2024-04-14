@@ -85,7 +85,7 @@ class _DrinksPageState extends State<DrinksPage> {
                     },
                     child: Image.asset('assets/images/food5.png'),
                   ),
-                  const SizedBox(width: 10), // Add a SizedBox for spacing
+                  const SizedBox(width: 30), // Add a SizedBox for spacing
                 ],
               ),
             ),
@@ -109,7 +109,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Second Image with Text
                     GestureDetector(
                       onTap: () {
@@ -122,7 +122,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Third Image with Text
                     GestureDetector(
                       onTap: () {
@@ -135,7 +135,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Fourth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -148,7 +148,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Fifth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -161,7 +161,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // Sixth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -174,7 +174,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     //seventh image text
                     GestureDetector(
                       onTap: () {
@@ -187,7 +187,7 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                     // eighth Image with Text
                     GestureDetector(
                       onTap: () {
@@ -200,9 +200,9 @@ class _DrinksPageState extends State<DrinksPage> {
                         ],
                       ),
                     ),
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                      
-                    const SizedBox(height: 10),
+                    const SizedBox(height: 30),
                   ],
                 ),
               ),
@@ -272,7 +272,7 @@ class _DrinksPageState extends State<DrinksPage> {
             },
             child: const Icon(Icons.keyboard_arrow_up),
           ),
-          const SizedBox(height: 10),
+          const SizedBox(height: 30),
           FloatingActionButton(
             onPressed: () {
               _scrollController.animateTo(
