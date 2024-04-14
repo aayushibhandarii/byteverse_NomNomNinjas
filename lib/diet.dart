@@ -85,7 +85,7 @@ class _DietPageState extends State<DietPage> {
                     },
                     child: Image.asset('assets/images/food5.png'),
                   ),
-                  const SizedBox(width: 10), // Add a SizedBox for spacing
+                  const SizedBox(width: 30), // Add a SizedBox for spacing
                 ],
               ),
             ),
