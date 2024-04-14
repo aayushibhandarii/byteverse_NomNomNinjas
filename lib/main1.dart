@@ -10,6 +10,7 @@ import 'package:rasoiriders/login.dart';
 import 'package:rasoiriders/paymentgateway.dart';
 import 'package:rasoiriders/signup.dart';
 import 'package:rasoiriders/vegan.dart';
+import 'package:rasoiriders/track.dart';
 import 'diet.dart';
 import 'drinks.dart';
 import 'firebase_options.dart';
@@ -18,6 +19,7 @@ import 'gym.dart';
 import 'homepg.dart';
 import 'location.dart';
 import 'mealplan.dart';
+import 'track.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
