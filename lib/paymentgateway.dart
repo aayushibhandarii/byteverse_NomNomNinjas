@@ -33,19 +33,19 @@ class _paymentGatewayState extends State<paymentGateway> {
   //For handling payment success
   void handlingPaymentSuccess (PaymentSuccessResponse response){
     Fluttertoast.showToast(msg: "Payment Succesful " + response.paymentId!, toastLength: Toast.LENGTH_SHORT);
-    Navigator.pushNamed(context, '/homepg');
+    Navigator.pushNamed(context, '/track');
   }
 
   //For handling payment errors
   void handlingPaymentError (PaymentFailureResponse response){
     Fluttertoast.showToast(msg: "Payment Fail " + response.message!, toastLength: Toast.LENGTH_SHORT);
-    Navigator.pushNamed(context, '/homepg');
+    Navigator.pushNamed(context, '/track');
   }
 
   //For handling the external wallet
   void handlingExternalWallet (ExternalWalletResponse response){
     Fluttertoast.showToast(msg: "External Wallet " + response.walletName!, toastLength: Toast.LENGTH_SHORT);
-    Navigator.pushNamed(context, '/homepg');
+    Navigator.pushNamed(context, '/track');
   }
 
   //to clear the razorpay
