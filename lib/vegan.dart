@@ -104,34 +104,24 @@ class _VeganPageState extends State<VeganPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 1'),
-                          Image.asset('assets/images/food6.jpeg'),
-                        ],
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    // Second Image with Text
-                    GestureDetector(
-                      onTap: () {
-                        // Add action for second image in section two here
-                      },
-                      child: Column(
-                        children: [
-                          const Text('Image 2'),
+                          const Text('DRINKS'),
                           Image.asset('assets/images/veg1.jpg'),
                         ],
                       ),
                     ),
                     const SizedBox(height: 10),
+                    // Second Image with Text
+
+                    const SizedBox(height: 10),
                     // Third Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for third image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for third image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 3'),
-                          Image.asset('assets/images/veg2.jpg'),
+                          const Text('Chickpea and Spinach curry'),
+                          Image.asset('assets/images/v2.jpeg'),
                         ],
                       ),
                     ),
@@ -139,12 +129,12 @@ class _VeganPageState extends State<VeganPage> {
                     // Fourth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fourth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fourth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 4'),
-                          Image.asset('assets/images/veg3.jpg'),
+                          const Text('Chickpea Salad Sandwich'),
+                          Image.asset('assets/images/v3.jpg'),
                         ],
                       ),
                     ),
@@ -152,12 +142,12 @@ class _VeganPageState extends State<VeganPage> {
                     // Fifth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for fifth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fifth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 5'),
-                          Image.asset('assets/images/veg4.jpg'),
+                          const Text('Chickpea Salad with Cucumber and Cherry Tomato'),
+                          Image.asset('assets/images/v4.jpeg'),
                         ],
                       ),
                     ),
@@ -165,25 +155,169 @@ class _VeganPageState extends State<VeganPage> {
                     // Sixth Image with Text
                     GestureDetector(
                       onTap: () {
-                        // Add action for sixth image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for sixth image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 6'),
-                          Image.asset('assets/images/veg5.jpg'),
+                          const Text('Coconut Curry lentil soup'),
+                          Image.asset('assets/images/v5.jpeg'),
                         ],
                       ),
                     ),
                     const SizedBox(height: 10),
-                    // Seventh Image with Text
+                    //seventh image text
                     GestureDetector(
                       onTap: () {
-                        // Add action for seventh image in section two here
+                        Navigator.pushNamed(context, '/mealplan');// Add action for seventh image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 7'),
-                          Image.asset('assets/images/veg6.jpg'),
+                          const Text('Eggplant and Zucchini Lasagna'),
+                          Image.asset('assets/images/v6.jpg')
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for eighth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Lentil Soup with carrots and kale'),
+                          Image.asset('assets/images/v7.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // ninth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for ninth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Mushroom Risoto'),
+                          Image.asset('assets/images/v8.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // tenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for tenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Quinoa salad with Roasted Vegetables'),
+                          Image.asset('assets/images/v9.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eleventh Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for eleventh image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('  Spinach and Mushroom Omlette'),
+                          Image.asset('assets/images/v10.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // twelfth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for twelfth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Stir-fried tofu with vegetables'),
+                          Image.asset('assets/images/v11.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // thirteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for thirteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Sweet Potato and Black Bean Enchiladas'),
+                          Image.asset('assets/images/v12.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fourteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fourteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Vegan Breakfast Burrito'),
+                          Image.asset('assets/images/v13.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fifteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for fifteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Vegan Buddha Bowl'),
+                          Image.asset('assets/images/v14.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // sixteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for sixteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Vegan Chili'),
+                          Image.asset('assets/images/v15.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // seventeenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/mealplan');// Add action for seventeenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Vegan Lentil Soup'),
+                          Image.asset('assets/images/v16.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                       Navigator.pushNamed(context, '/mealplan'); // Add action for eighteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Vegan Pad Thai'),
+                          Image.asset('assets/images/v17.jpeg'),
+
                         ],
                       ),
                     ),
@@ -200,7 +334,7 @@ class _VeganPageState extends State<VeganPage> {
           BottomNavigationBarItem(
             icon: GestureDetector(
               onTap: () {
-                // No action needed for the first icon
+                Navigator.pushNamed(context, '/homepg');// No action needed for the first icon
               },
               child: Image.asset('assets/images/icon3.png'), // Replace with your home icon
             ),
