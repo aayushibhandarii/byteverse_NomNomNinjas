@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class DrinksPage extends StatefulWidget {
+class GymPage extends StatefulWidget {
   @override
-  _DrinksPageState createState() => _DrinksPageState();
+  _GymPageState createState() => _GymPageState();
 }
 
-class _DrinksPageState extends State<DrinksPage> {
+class _GymPageState extends State<GymPage> {
   final ScrollController _scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page'),
+        title: const Text('Gym Page'),
         leading: GestureDetector(
           onTap: () {
             // Add action for menu icon here

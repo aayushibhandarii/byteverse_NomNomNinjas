@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:rasoiriders/login.dart';
 import 'package:rasoiriders/main.dart';
 
+import 'homepg.dart';
+
 class checkUser extends StatefulWidget {
   const checkUser({super.key});
 
@@ -21,7 +23,7 @@ class _checkUserState extends State<checkUser> {
     if (user == null){
         return loginPage();
     } else{
-      return MyHomePage(title: "Already login");
+      return HomePage();
     }
 
   }

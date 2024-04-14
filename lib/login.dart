@@ -5,6 +5,8 @@ import 'package:rasoiriders/signup.dart';
 import 'package:rasoiriders/uiHelper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+import 'homepg.dart';
+
 class loginPage extends StatefulWidget {
   const loginPage({super.key});
 
@@ -23,7 +25,7 @@ class _loginPageState extends State<loginPage> {
       UserCredential? usercredential;         //  ? means it can be null
       try{
         usercredential = await FirebaseAuth.instance.createUserWithEmailAndPassword(email: email, password: password);// as we are handling with future values hence we use async and await     // if here values are putted by the user then create a new user
-        return MyHomePage(title: "Logged in");}
+        return HomePage();}
       on FirebaseAuthException catch(e){        // to handle the exception in try   //ex: if user created another account with same email and password or network issue while entering email or password
         return uiHelper.CustomAlertBox(context, e.code.toString());  // as exception is generated through code and to string() convert it to string so that user can understand
       }
@@ -52,13 +54,13 @@ class _loginPageState extends State<loginPage> {
             children: [
               Text("Already have an account?",style: TextStyle(fontSize: 17),),
               TextButton(onPressed: (){
-                Navigator.push(context,MaterialPageRoute(builder: (context) => signupPage()));        // to navigate to signup page when signup is clicked
+                Navigator.pushNamed(context, '/signup');        // to navigate to signup page when signup is clicked
               }, child: Text("SignUp", style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),))
             ]
           ),
           SizedBox(height: 20,),
           TextButton(onPressed: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context) => forgotPassword()));
+            Navigator.pushNamed(context, '/forgot');
           }, child: Text("Forgot Password?"))
       ],)
     );

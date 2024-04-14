@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class DrinksPage extends StatefulWidget {
+class HomePage extends StatefulWidget {
   @override
-  _DrinksPageState createState() => _DrinksPageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class _DrinksPageState extends State<DrinksPage> {
+class _HomePageState extends State<HomePage> {
   final ScrollController _scrollController = ScrollController();
 
   @override
