@@ -12,7 +12,7 @@ class _DrinksPageState extends State<DrinksPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page'),
+        title: const Text('Drinks Page'),
         leading: GestureDetector(
           onTap: () {
             // Add action for menu icon here
@@ -104,8 +104,8 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 1'),
-                          Image.asset('assets/images/food6.jpeg'),
+                          const Text('DRINKS'),
+                          Image.asset('assets/images/d11.jpg'),
                         ],
                       ),
                     ),
@@ -117,8 +117,8 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 2'),
-                          Image.asset('assets/images/veg1.jpg'),
+                          const Text('Chocolate Brownie Shake'),
+                          Image.asset('assets/images/d2.jpg'),
                         ],
                       ),
                     ),
@@ -130,8 +130,8 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 3'),
-                          Image.asset('assets/images/veg2.jpg'),
+                          const Text('Strawberry Banana Smoothie'),
+                          Image.asset('assets/images/d3.jpg'),
                         ],
                       ),
                     ),
@@ -143,8 +143,8 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 4'),
-                          Image.asset('assets/images/veg3.jpg'),
+                          const Text('Mango Pineapple Frappe'),
+                          Image.asset('assets/images/d4.jpg'),
                         ],
                       ),
                     ),
@@ -156,8 +156,8 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 5'),
-                          Image.asset('assets/images/veg4.jpg'),
+                          const Text('Iced Caramel latte'),
+                          Image.asset('assets/images/d5.jpg'),
                         ],
                       ),
                     ),
@@ -169,21 +169,165 @@ class _DrinksPageState extends State<DrinksPage> {
                       },
                       child: Column(
                         children: [
-                          const Text('Image 6'),
-                          Image.asset('assets/images/veg5.jpg'),
+                          const Text('Green Tea Matcha Smoothie'),
+                          Image.asset('assets/images/d6.jpg'),
                         ],
                       ),
                     ),
                     const SizedBox(height: 10),
-                    // Seventh Image with Text
+                    //seventh image text
                     GestureDetector(
                       onTap: () {
                         // Add action for seventh image in section two here
                       },
                       child: Column(
                         children: [
-                          const Text('Image 7'),
-                          Image.asset('assets/images/veg6.jpg'),
+                          const Text('Blueberry Bliss Smoothie'),
+                          Image.asset('assets/images/d7.jpg')
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for eighth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Cookie n Cream Shake'),
+                          Image.asset('assets/images/d8.jpeg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // ninth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for ninth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Peanut Butter Banana Smoothie'),
+                          Image.asset('assets/images/d9.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // tenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for tenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Raspberry Lemonade Cooler'),
+                          Image.asset('assets/images/d10.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eleventh Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for eleventh image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Coconut Water Refresher'),
+                          Image.asset('assets/images/d11.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // twelfth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for twelfth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Mint Chocolate Chip Shake'),
+                          Image.asset('assets/images/d12.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // thirteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for thirteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Espresso Frappe'),
+                          Image.asset('assets/images/d13.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fourteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for fourteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Orange Creamsicle Smoothie'),
+                          Image.asset('assets/images/d14.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // fifteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for fifteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Mocha Madness Shake'),
+                          Image.asset('assets/images/d15.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // sixteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for sixteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Pineapple Coconut Smoothie'),
+                          Image.asset('assets/images/d16.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // seventeenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for seventeenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Almond Joy Shake'),
+                          Image.asset('assets/images/d17.jpg'),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    // eighteenth Image with Text
+                    GestureDetector(
+                      onTap: () {
+                        // Add action for eighteenth image in section two here
+                      },
+                      child: Column(
+                        children: [
+                          const Text('Watermelon Mint Cooler'),
+                          Image.asset('assets/images/d18.jpg'),
+
                         ],
                       ),
                     ),
@@ -200,7 +344,7 @@ class _DrinksPageState extends State<DrinksPage> {
           BottomNavigationBarItem(
             icon: GestureDetector(
               onTap: () {
-                // No action needed for the first icon
+                Navigator.pushNamed(context, '/homepg');// No action needed for the first icon
               },
               child: Image.asset('assets/images/icon3.png'), // Replace with your home icon
             ),
